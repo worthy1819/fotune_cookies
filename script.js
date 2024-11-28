@@ -52,7 +52,7 @@ const fortunes = [
   const fortuneElement = document.getElementById("fortune");
   const button = document.getElementById("generate-btn");
   const sound = new Audio("crack.mp3");
-  const colors = ["#f4b400", "#34a853", "#4285f4", "#db4437", "#fef3c7"];
+  const colors = ["#f4b400", "#34a853", "#4285f4", "#db4437", "#fef3c7", "#c0f2a5", "#362a4f", "#633d94", "#6e8b0a", "#bda4cb", "#208037", "#dac56b", "#b60793", "#db33cc", "#68d12c", "#b6ed1f", "#428508", "#5661b8", "#aaf70a", "#f227df"];
   
   button.addEventListener("click", () => {
     sound.play();
@@ -70,5 +70,6 @@ const fortunes = [
   
     }, 500);
   });
-  
-  
+
+
+  //done 
